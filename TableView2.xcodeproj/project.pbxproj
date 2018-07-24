@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A3F27620F83E970083548A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3F27520F83E970083548A /* TableViewController.swift */; };
 		84B3143A20E53FC4009D5078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3143920E53FC4009D5078 /* AppDelegate.swift */; };
-		84B3143C20E53FC4009D5078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3143B20E53FC4009D5078 /* ViewController.swift */; };
 		84B3143F20E53FC4009D5078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B3143D20E53FC4009D5078 /* Main.storyboard */; };
 		84B3144120E53FC6009D5078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B3144020E53FC6009D5078 /* Assets.xcassets */; };
 		84B3144420E53FC6009D5078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B3144220E53FC6009D5078 /* LaunchScreen.storyboard */; };
+		84B3AD3D20F7394A002192FF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3AD3C20F7394A002192FF /* DetailViewController.swift */; };
+		84B3AD3F20F740CE002192FF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3AD3E20F740CE002192FF /* MasterViewController.swift */; };
+		84D3C5B520F6F1A4003EBE6C /* NumbersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3C5B420F6F1A4003EBE6C /* NumbersDataSource.swift */; };
+		84D3C5B720F6F427003EBE6C /* NumbersTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3C5B620F6F427003EBE6C /* NumbersTableViewDelegate.swift */; };
+		84D3C5B920F6FBC2003EBE6C /* StringDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3C5B820F6FBC2003EBE6C /* StringDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84A3F27520F83E970083548A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		84B3143620E53FC4009D5078 /* TableView2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B3143920E53FC4009D5078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84B3143B20E53FC4009D5078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84B3143E20E53FC4009D5078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84B3144020E53FC6009D5078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B3144320E53FC6009D5078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B3144520E53FC6009D5078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B3AD3C20F7394A002192FF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84B3AD3E20F740CE002192FF /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		84D3C5B420F6F1A4003EBE6C /* NumbersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersDataSource.swift; sourceTree = "<group>"; };
+		84D3C5B620F6F427003EBE6C /* NumbersTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersTableViewDelegate.swift; sourceTree = "<group>"; };
+		84D3C5B820F6FBC2003EBE6C /* StringDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				84B3143920E53FC4009D5078 /* AppDelegate.swift */,
-				84B3143B20E53FC4009D5078 /* ViewController.swift */,
+				84A3F27520F83E970083548A /* TableViewController.swift */,
+				84D3C5B420F6F1A4003EBE6C /* NumbersDataSource.swift */,
+				84D3C5B820F6FBC2003EBE6C /* StringDataSource.swift */,
+				84D3C5B620F6F427003EBE6C /* NumbersTableViewDelegate.swift */,
+				84B3AD3E20F740CE002192FF /* MasterViewController.swift */,
+				84B3AD3C20F7394A002192FF /* DetailViewController.swift */,
 				84B3143D20E53FC4009D5078 /* Main.storyboard */,
 				84B3144020E53FC6009D5078 /* Assets.xcassets */,
 				84B3144220E53FC6009D5078 /* LaunchScreen.storyboard */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B3143C20E53FC4009D5078 /* ViewController.swift in Sources */,
 				84B3143A20E53FC4009D5078 /* AppDelegate.swift in Sources */,
+				84A3F27620F83E970083548A /* TableViewController.swift in Sources */,
+				84D3C5B920F6FBC2003EBE6C /* StringDataSource.swift in Sources */,
+				84D3C5B520F6F1A4003EBE6C /* NumbersDataSource.swift in Sources */,
+				84B3AD3F20F740CE002192FF /* MasterViewController.swift in Sources */,
+				84D3C5B720F6F427003EBE6C /* NumbersTableViewDelegate.swift in Sources */,
+				84B3AD3D20F7394A002192FF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5LAY7QG8C;
 				INFOPLIST_FILE = TableView2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5LAY7QG8C;
 				INFOPLIST_FILE = TableView2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
